@@ -1,0 +1,229 @@
+html {
+  position: relative;
+  min-height: 100%;
+  background-color: #003966;
+}
+
+
+body{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	min-height: 100%;
+	color: #001f3f;
+
+}
+#mainwrap{
+	background: url('css/images.jpg');
+	background-color: #310638;
+	margin: 0 auto ;
+	width: 1350px;
+	height: 600px;
+}
+
+#wrapper{
+	background-color: #001f3f;
+	padding: 20px 10px 10px 20px;
+	width: 1350px;
+	height: 600px;
+	color: #fff;
+	margin: 0 auto;
+}
+
+h2{
+	text-transform: uppercase;
+	margin: 5px 5px;
+	padding: 15px;
+	border: 4px;
+	text-align: center;
+
+}
+
+h1{
+	margin: 2px;
+	text-align: center;
+
+}
+
+p{
+
+}
+
+label{
+	color: black;
+}
+.container{
+	align-content: center;
+	color: black;
+
+}
+#time{
+	background-attachment: url('images_share.jpg');
+	/*background-color: blue; */
+	text-align: center;
+}
+#one{
+	background-image: url('');
+	padding: 250px;
+	opacity: 0.9;
+	color: black;
+	text-align: center;
+	position: auto;
+
+
+}
+
+#timeform{
+	font-size: 16px;
+	font-weight: 20px;
+	color: #001f3f;*
+}
+
+.main-form{
+	align-content: center;
+}
+#transbox{
+	float: left;
+	opacity: 0.7;
+	background-color: #3c58ad;
+	border-width: 6px;
+	width:400px ;
+	height: 350px;
+	border-radius: 15px 15px;
+	margin: 25px 10px;
+	padding: 5px;
+	box-sizing: border-box;
+	color: black;
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+}
+
+
+hr{
+	size: 5px;
+	margin: 10px;
+
+}
+
+.btnone{
+	font-family: "proxima nova";
+	font-weight: 100;
+	font-size: 50px;
+	margin: 30px;
+	text-align: center;
+	padding: 25px 30px;
+	border:solid 10px #31A6FF ;
+	border-radius: 50px;
+	color: white;
+
+}
+
+a {
+	text-align: center;
+	color: white;
+}
+
+
+
+
+
+.org{
+	background-color: #3c58ad;
+	border-width: 3px;
+	margin: 5px 5px;
+	padding: 15px;
+	box-sizing: border-box;
+	color: white;
+	max-width:250px;
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+.org img{
+	max-width:100%;
+
+}
+
+
+a{
+	font-size: 26px;
+	color: white;
+}
+
+
+
+
+h1.title { 
+    font-size: 50px;
+    font-family: 'Passion One', cursive; 
+    font-weight: 400; 
+
+}
+.title{
+    text-align: center;
+    color: #10102d;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+
+hr{
+    width: 10%;
+    color: #fff;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+/*this is for div in login*/
+.form{
+     margin: auto;
+    width: 50%;
+    border: 3px solid grey;
+    padding: 10px;
+}
+
+label{
+    margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 12px;
+    padding-top: 3px;
+}
+
+.main-login{
+    background-color: #fff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.main-center{
+    margin-top: 30px;
+    margin: 0 auto;
+    max-width: 350px;
+    max-height: 700px;
+    padding: 40px 40px;
+
+}
+
+.login-button{
+    margin-top: 5px;
+}
+
+.login-register{
+    font-size: 12px;
+    text-align: center;
+}
